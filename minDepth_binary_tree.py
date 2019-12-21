@@ -21,6 +21,12 @@ leaf node定义：leaf node的left，right子节点都是Null，才叫leaf node
 
 """
 
+
+
+'''
+Time complexity of above solution is O(n)
+'''
+
 class Node:
     def __init__(self, value):
         self.value = value
